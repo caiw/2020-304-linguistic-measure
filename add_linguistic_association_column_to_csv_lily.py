@@ -6,9 +6,8 @@ from ldm.utils.exceptions import WordNotFoundError
 
 
 def main(in_path: str, out_path: str):
-    corpus = Preferences.source_corpus_metas.ukwac
     model = PPMINgramModel(
-        corpus_meta=corpus,
+        corpus_meta=Preferences.source_corpus_metas.ukwac,
         window_radius=5)
     model.train(memory_map=True)
     with open(in_path, mode="r", encoding="utf-8") as csv_in_file:
