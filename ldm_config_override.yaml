@@ -1,0 +1,11 @@
+corpora:
+  subtitles:
+    name:  "BBC"
+    path:  "/Volumes/Lore/corpora/BBC/4 Tokenised/BBC.corpus"
+    index: "/Volumes/Lore/indexes/BBC.freqdist"
+  ukwac:
+    name:  "UKWAC"
+    path:  "/Volumes/Lore/corpora/UKWAC/3 Tokenised/UKWAC.corpus"
+    index: "/Volumes/Lore/indexes/UKWAC.freqdist"
+models:
+  directory: "/Volumes/Lore/vectors/"
